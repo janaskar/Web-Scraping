@@ -63,6 +63,6 @@ def get_temp_color(temp):
     except ValueError:
         return Fore.WHITE  # Default color if parsing fails
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     city = input("Enter the city name: ")
     get_weather(city)
